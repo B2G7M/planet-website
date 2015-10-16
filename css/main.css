@@ -24,21 +24,16 @@ body {
 	margin: 0;
 }
 
-nav {
-	text-align: center;
+ul{
+	padding: 0;
 }
 
-ul {
+li{
 	list-style: none;
-
-}
-
-li {
-	display: inline-block;
 }
 
 h1 {
-	text-align: center;
+	text-align: left;
 }
 
 .img-flex {
@@ -47,5 +42,38 @@ h1 {
 
 .navbar {
 	background-color: grey;
-	overflow: hidden;
+}
+
+@media only screen and (min-width: 15em) { 
+
+	ul {
+		display: inline-block;
+	}
+
+	li {
+		display: inline-block;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	.navbar h2 {
+		text-align: center;
+	}
+
+}
+
+
+@media only screen and (min-width: 38em) { 
+
+	.navbar h2 {
+		text-align: left;
+	}
+
+	nav {
+		text-align: left;
+		display: inline-block;
+	}
+
 }
