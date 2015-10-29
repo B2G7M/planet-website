@@ -89,6 +89,14 @@ thead th {
   font-style: italic;
 }
 
+.page-header {
+  background-color: #e2e2e2;
+}
+
+.negate {
+  width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
 blockquote, details, hr,

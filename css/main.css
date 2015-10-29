@@ -26,10 +26,22 @@ body {
 
 ul{
 	padding: 0;
+	text-decoration: none;
 }
 
-li{
+li {
 	list-style: none;
+}
+
+a {
+	list-style: none;
+	color: #0074d9;
+	text-decoration: none;
+}
+
+.selected-page {
+	background-color: #0074d9;
+	color: #fff;
 }
 
 h1 {
@@ -41,7 +53,16 @@ h1 {
 }
 
 .navbar {
-	background-color: grey;
+	background-color: #cccccc;
+}
+
+.global-crater-maat{
+	background-color: #efefef;
+	padding: none;
+}
+
+.character {
+	float: left;
 }
 
 @media only screen and (min-width: 15em) { 
@@ -73,7 +94,8 @@ h1 {
 
 	nav {
 		text-align: left;
-		display: inline-block;
+		display: inline;
 	}
+
 
 }
