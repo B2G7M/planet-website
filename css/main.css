@@ -65,6 +65,10 @@ h1 {
 	float: left;
 }
 
+.character-right {
+	float: right;
+}
+
 @media only screen and (min-width: 15em) { 
 
 	ul {
@@ -95,6 +99,14 @@ h1 {
 	nav {
 		text-align: left;
 		display: inline;
+	}
+
+	.if {
+		float: right;
+	}
+
+	.if-then {
+		float: left;
 	}
 
 
